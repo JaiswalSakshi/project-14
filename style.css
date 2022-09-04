@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+body{
+    overflow-y: hidden;
+    font-family: Merriweather;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+}
+.main-img img{
+    height: 100vh;
+    background: fixed;
+    margin: -8px -8px;
+    z-index: -1;
+    position: absolute;
+}
+.logo img{
+    height: 40px;
+    margin: 30px 30px;
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    border-bottom: 1px solid black;
+    width: 40%;
+    height: 7vh;
+    color: #333333;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}
+.list-item{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #929191;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+}
+.heading h1{
+    font-size: 100px;
+    margin-top: 10px;
+}
+.heading span{
+    margin-left: 150px;
+}
+.discreption{
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: 100;
+    color: #929191;
+    width: 10%;
+    margin-top: 150px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 0;
+}
+.social img{
+    height: 20px;
+    margin-top: 50px;
+}
+.package-button{
+    margin-left: 500px;
+    margin-top: -30px;
+}
+.package-button button{
+    padding: 20px 50px;
+    background-color: #333333;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+.third{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.last-mid{
+    width: 90%;
+    margin-left: -100px;
+}
+.last-mid img{
+    height: 200px;
+    width: 100%;
+    margin-top: -11px;
+}
+.last-mid h1{
+    font-size: 50px;
+    margin-top: 1px;
+}
+.last-mid p{
+    font-size: 15px;
+    margin-top: -60px;
+}
+.last-list{
+    border-left: 1px solid black;
+    width: 40%;
+}
+.last-list-item-active{
+    margin-top: -5px;
+    font-size: 20px;
+    margin-left: -23px;
+}
+.last-list-item{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: -23px;
+    color: #929191;
+}
