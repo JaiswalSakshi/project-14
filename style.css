@@ -117,3 +117,78 @@ body{
     margin-left: -23px;
     color: #929191;
 }
+
+
+/* responsive */
+
+@media screen and (max-width: 700px) {
+    body{
+        overflow-y: auto;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .line{
+        display: none;
+    }
+    .list-item{
+        display: none;
+    }
+    .main-img img{
+        height: 100vh;
+        width: 100%;
+        background: fixed;
+        position:relative;
+    }
+    .logo img{
+        height: 40px;
+        margin-top: -600px;
+        width: 20%;
+        background: fixed;
+        z-index: -1;
+        position: absolute;
+    }
+    .two{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .heading h1{
+        font-size: 100px;
+        margin-top: 0px;
+    }
+    .discreption{
+        font-size: 25px;
+        margin-left: 50px;
+        width: 90%;
+        margin-top: -80px;
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        margin-left: 60px;
+        margin-top: 0;
+    }
+    .social img{
+        height: 25px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .package-button{
+        margin-left: 120px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .last-mid{
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    .last-mid img{
+        margin-top: 10px;
+    }
+    .last-list{
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+}
